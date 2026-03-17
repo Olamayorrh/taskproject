@@ -21,6 +21,3 @@ urlpatterns = [
     path('', include('tasks.urls'))
 ]
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-]
